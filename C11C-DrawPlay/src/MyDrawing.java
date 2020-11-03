@@ -10,6 +10,7 @@ public class MyDrawing extends JPanel {
 	private Dog dog; 
 	public MyDrawing() 
 	{
+		
 		// Add critters to the drawing
 		cat = new Cat();
 		mouse = new Mouse(); 
