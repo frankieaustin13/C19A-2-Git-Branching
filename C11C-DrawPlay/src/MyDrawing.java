@@ -13,7 +13,7 @@ public class MyDrawing extends JPanel {
 		// Add critters to the drawing
 		cat = new Cat();
 		mouse = new Mouse(); 
-		dog - new Dog(); 
+		dog = new Dog(); 
 		
 	}
 	// paintComponent is called automatically when the frame needs
@@ -21,7 +21,7 @@ public class MyDrawing extends JPanel {
 	public void paintComponent(Graphics g) {
 		cat.draw(g, 50, 50);
 		mouse.draw(g, 100, 200);
-		dog.draw(g, 300, 300);
+		dog.draw(g, 200, 100);
 	}
 	
 	/**
